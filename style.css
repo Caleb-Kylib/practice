@@ -48,10 +48,13 @@ nav ul li a:hover{
 }
 .carousel__image{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .carousel__track-container{
     padding: 10px;
-
+    height: 100%;
+    position: relative;
 }
 .carousel__track{
     padding: 0;
@@ -63,4 +66,22 @@ nav ul li a:hover{
     top:0;
     bottom: 0;
     width: 100%
+}
+.carousel__button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.carousel__button--left{
+    left:-40px;
+}
+.carousel__button--right{
+    right: -40px;
+}
+.carousel__button-image{
+    width: 40px;
+
 }
