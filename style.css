@@ -81,7 +81,21 @@ nav ul li a:hover{
 .carousel__button--right{
     right: -40px;
 }
-.carousel__button-image{
-    width: 40px;
+.carousel__button-img{
+    width: 12px;
 
 }
+.carousel__nav{
+    background: red;
+    display: flex;
+    justify-content: center;
+}
+.carousel__indicator{
+    border: 0;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: rgba(0,0,0,.3);
+    margin: 0 12px;
+}
+
