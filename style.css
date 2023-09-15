@@ -141,6 +141,7 @@ nav ul li a:hover{
   align-items: center;
 }
 
+
 .wrapper{
     display: flex;
     align-items: center;
@@ -182,6 +183,8 @@ nav ul li a:hover{
 }
 .our-vision{
     color:black ;
+    position: relative;
+    isolation: isolate;
 }
 .our-vision h2{
     font-size: 42px;
@@ -208,6 +211,7 @@ nav ul li a:hover{
 .our-impact{
     color:black ;
 }
+
 .our-impact h2{
     font-size: 42px;
     display: flex;
@@ -215,6 +219,24 @@ nav ul li a:hover{
     justify-content: center;
 }
 .our-impact p{
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.Testimonies{
+    color:black ;
+    position: relative;
+    isolation: isolate;
+    background: linear-gradient(to right #fdc830, #f37355);
+}
+.Testimonies h2{
+    font-size: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Testimonies p{
   font-size: 16px;
   display: flex;
   align-items: center;
