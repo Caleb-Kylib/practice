@@ -116,7 +116,7 @@ nav ul li a:hover{
     ;
 }
 .story img{
-    max-width: 600px;
+    max-width: 400px;
     float:left;
     border: 3px solid whitesmoke;
     border-radius: 10px;
@@ -171,7 +171,7 @@ nav ul li a:hover{
   align-items: center;
 }
 
-.vision img{
+.our-values img{
     max-width: 800px;
     float:right;
     border: 3px solid whitesmoke;
@@ -181,44 +181,17 @@ nav ul li a:hover{
     margin-right: 20px;
     
 }
-.our-vision{
+.our-values{
     color:black ;
-    position: relative;
-    isolation: isolate;
 }
-.our-vision h2{
+
+.our-values h2{
     font-size: 42px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.our-vision p{
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-}
-
-.impact img{
-    max-width: 800px;
-    float:right;
-    border: 3px solid whitesmoke;
-    border-radius: 10px;
-    height: auto;
-    max-height: 350px;
-    margin-right: 20px;
-    
-}
-.our-impact{
-    color:black ;
-}
-
-.our-impact h2{
-    font-size: 42px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.our-impact p{
+.our-values p{
   font-size: 16px;
   display: flex;
   align-items: center;
