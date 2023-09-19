@@ -5,7 +5,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -47,64 +47,7 @@ nav ul li a:hover{
     font-weight: bold;
 }
 
-.carousel{
-    position: relative;
-    height: 600px;
-    width: 80%;
-    margin : 0 auto;
-}
-.carousel__image{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.carousel__track-container{
-    padding: 10px;
-    height: 100%;
-    position: relative;
-}
-.carousel__track{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-.carousel__slide{
-    position: absolute;
-    top:0;
-    bottom: 0;
-    width: 100%
-}
-.carousel__button{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: transparent;
-    border: 0;
-    cursor: pointer;
-}
-.carousel__button--left{
-    left:-40px;
-}
-.carousel__button--right{
-    right: -40px;
-}
-.carousel__button-img{
-    width: 12px;
 
-}
-.carousel__nav{
-    background: red;
-    display: flex;
-    justify-content: center;
-}
-.carousel__indicator{
-    border: 0;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background: rgba(0,0,0,.3);
-    margin: 0 12px;
-}
 
 .wrapper{
     display: flex;
@@ -116,7 +59,7 @@ nav ul li a:hover{
     ;
 }
 .story img{
-    max-width: 400px;
+    max-width: 500px;
     float:left;
     border: 3px solid whitesmoke;
     border-radius: 10px;
@@ -130,49 +73,22 @@ nav ul li a:hover{
     
 }
 .about-us h2{
-    font-size: 42px;
+    font-size: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .about-us p{
-  font-size: 16px;
+  font-size: 20px;
   display: flex;
   align-items: center;
 }
 
 
-.wrapper{
-    display: flex;
-    align-items: center;
-}
-.mission img{
-    max-width: 800px;
-    float:right;
-    border: 3px solid whitesmoke;
-    border-radius: 10px;
-    height: auto;
-    max-height: 350px;
-    margin-right: 20px;
-    
-}
-.our-mission{
-    color:black ;
-}
-.our-mission h2{
-    font-size: 42px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.our-mission p{
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-}
+
 
 .our-values img{
-    max-width: 800px;
+    max-width: 500px;
     float:right;
     border: 3px solid whitesmoke;
     border-radius: 10px;
@@ -192,25 +108,36 @@ nav ul li a:hover{
     justify-content: center;
 }
 .our-values p{
-  font-size: 16px;
+  font-size: 20px;
   display: flex;
   align-items: center;
 }
 
-.Testimonies{
-    color:black ;
-    position: relative;
-    isolation: isolate;
-    background: linear-gradient(to right #fdc830, #f37355);
+.wrapper{
+    display: flex;
+    align-items: center;
 }
-.Testimonies h2{
+.history img{
+    max-width: 700px;
+    float:left;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    height: auto;
+    max-height: 350px;
+    margin-right: 20px;
+    
+}
+.history{
+    color:black ;
+}
+.history h2{
     font-size: 42px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.Testimonies p{
-  font-size: 16px;
+.history p{
+  font-size: 20px;
   display: flex;
   align-items: center;
 }
